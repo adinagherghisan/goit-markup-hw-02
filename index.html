@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="witdth=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
 </head>
 <body>
-   <header> <a href="http://127.0.0.1:5500/index.html"><h1>WebStudio</h1></a>
-    <nav>
+   <header > <a href="http://127.0.0.1:5500/index.html"><h1><span class="web-section">Web</span><span class="studio-section">Studio</span></h1></a>
+    <nav class="nav-class">
       <ul>
-         <li><a href="http://127.0.0.1:5500/index.html">Studio</li>
-         <li><a href="http://127.0.0.1:5500/index.html">Portfolio</li>
-         <li><a href="http://127.0.0.1:5500/index.html">Contacts</li>
+         <li><a href="studio.html">Studio</li>
+         <li><a href="portfolio.html">Portfolio</li>
+         <li><a href="#">Contacts</li>
       </ul>
     </nav>
-    <a href="mail:info@devstudio.com">info@devstudio.com</a>
-    <a href="tel:+1 212-772-4150">+1 212-772-4150</a>
+    <div class="contacts-class"><a href="mail:info@devstudio.com">info@devstudio.com</a>
+      <br>
+    <a href="tel:+1 212-772-4150">+1 212-772-4150</a></div>
+   
    </header>
         <!--Main-section-->
   <main>
-    <section><h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS </h1>
+    <section class="main-section"><h1 class="title-main">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS </h1>
     <button>Request our service</button></section>
     <section>
-      <div>
+      <div class="article-section">
       <ul>
         <li>
           <h3>ATTENTION TO DETAILS</h3>
@@ -37,7 +44,7 @@
           <h3>MODERN TECHNOLOGIES</h3>   
           <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p></li></ul></div></section>
      <section>  
-     <div>
+     <div class="gallery-section">
        <h2>What we do</h2>
        <ul>
          <li><img src="./images/img-1.jpg" alt="code-project" width="370px" height="294px"></li>
@@ -47,8 +54,8 @@
     </div>
     </section>
      <!--Our-Team-->
-     <section> <h2>Our Team</h2>
-      <div>
+     <section class="team-section"> <h2>Our Team</h2>
+      <div class="persons-class">
          <ul>
             <li>
               <img src="./images/Christopher.jpg" alt="Christopher" width="270px" height="260px" >
@@ -75,13 +82,16 @@
     </section>
 </main>
 <!--Footer-section-->
-<footer>
-    <div>
+<footer >
+    <div class="footer-section">
      <a href="http://127.0.0.1:5500/index.html">
-    <h1>WebStudio</h1></a>
-    <address>695 Park Ave, NY 10065, USA
+    <h1><span class="web-section">Web</span><span class="studio-section-footer">Studio</span></h1></a>
+    <address class="address-class">695 Park Ave, NY 10065, USA
+      <br>
      <a href="mail to:info@devstudio.com">info@devstudio.com</a>
+     <br>
      <a href="tel:+1 212-772-4150">+1 212-772-4150</a>
+     <br>
     </address>
     </div>
 </footer>
