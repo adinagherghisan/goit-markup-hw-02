@@ -4,8 +4,8 @@ body{background-color: #fff;
     height: 2348px;}
 :root{--link-color:#212121;--heading-font-family:"Roboto";}
 a{text-decoration: none;}
-.filter-buttons button:hover{ background-color:#2196F3;}
-.filter-buttons button:active{color: #fff}
+.filter-buttons button:hover{ background-color:#2196F3;color: #FFF;}
+
 .contacts-class a:hover{color: #2196F3;}
  .address-class a:hover{color: #2196F3;}
 .nav-class a:hover{color: #2196F3; text-decoration:none;}
@@ -60,7 +60,7 @@ a{text-decoration: none;}
     font-size: 16px;
     font-weight: 500;
     line-height: 1,85%;
-    }
+  font-family: inherit;}
 .filter-objects-section h3{color: #212121;
     font-size: 18px;
     font-weight: 700;
