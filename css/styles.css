@@ -4,12 +4,13 @@ body{background-color: #fff;
     height: 2348px;}
 :root{--link-color:#212121;--heading-font-family:"Roboto";}
 a{text-decoration: none;}
+.current {color: #2196F3;}
 .filter-buttons button:hover{ background-color:#2196F3;color: #FFF;}
-
+.filter-buttons button:active{color:#FFF;}
+.nav-class a:active{color: #2196F3;}
 .contacts-class a:hover{color: #2196F3;}
  .address-class a:hover{color: #2196F3;}
 .nav-class a:hover{color: #2196F3; text-decoration:none;}
-.nav-class a:visited{color: #2196F3;}
 .nav-class a{color: var(--link-color);}
 .nav-class{color: #212121;
           font-size: 14px;
@@ -85,3 +86,4 @@ a{text-decoration: none;}
         font-size: 26px;
         font-weight: 700;}
     .web-section{text-decoration-line: none;}
+   
