@@ -4,7 +4,7 @@ body{background-color: #fff;
     height: 2348px;}
 :root{--link-color:#212121;--heading-font-family:"Roboto";}
 a{text-decoration: none;}
-.current {color: #2196F3;}
+.current {color: #2196F3;}.current:hover{color:#1588ed}
 .filter-buttons button:hover{ background-color:#2196F3;color: #FFF;}
 .filter-buttons button:active{color:#FFF;}
 .nav-class a:active{color: #2196F3;}
