@@ -8,6 +8,7 @@ a{text-decoration: none;}
 .current {color: #2196F3;}.current:hover{color:#1588ed}
 .filter-buttons button:hover{ background-color:#2196F3;color: #FFF;}
 .filter-buttons button:active{color:#FFF;}
+.filter-buttons button:focus{color:#2196F3;}
 .nav-class a:active{color: #2196F3;}
 .contacts-class a:hover{color: #2196F3;}
  .address-class a:hover{color: #2196F3;}
