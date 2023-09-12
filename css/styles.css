@@ -4,11 +4,11 @@ body{background-color: #fff;
     height: 2348px;}
 :root{--link-color:#212121;--heading-font-family:"Roboto";}
 a{text-decoration: none;}
-.button-service:hover{background-color: #0e52e6;}
+.button-service:hover{background-color:#1588ed;}
 .current {color: #2196F3;}.current:hover{color:#1588ed}
 .filter-buttons button:hover{ background-color:#2196F3;color: #FFF;}
 .filter-buttons button:active{color:#FFF;}
-.filter-buttons button:focus{color:#2196F3;}
+.filter-buttons button:focus{background-color:#2196F3;}
 .nav-class a:active{color: #2196F3;}
 .contacts-class a:hover{color: #2196F3;}
  .address-class a:hover{color: #2196F3;}
